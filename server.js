@@ -2,7 +2,7 @@ const PORT = 3000;
 
 const io = require('socket.io')(PORT,{
     cors:{
-        origin: ['*']
+        origin: ['http://127.0.0.1:8000']
     }
 })
 
